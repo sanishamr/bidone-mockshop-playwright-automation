@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - Mock Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shop</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search by Product Code or Description">
+            <button onclick="searchProducts()">Search</button>
+            <button onclick="viewBasket()">View Basket</button>
+            <button onclick="logout()">Logout</button>
+        </div>
+        <div id="productList" class="product-grid"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
